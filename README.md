@@ -71,11 +71,14 @@ class Child : MyInterface {
 ## SOLID
 ![Solid Explanation](http://wall-skills.com/wp-content/uploads/2013/12/solid-OOP_wall-skills.jpg)
 
-**Today**
-* Liskov Substitution principle
-  - Square and rectangle example
-  - [More info](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710)
-* Interface Segregation principle
+
+## Liskov Substitution principle
+  - **Definition**
+    - Child classes should never break teh parent class' type definitions.
+    - Subtypes must be substitutable for their base types.
+  _ **Why?**
+  ![Rectangle Square Problem](https://cdn.tutsplus.com/net/uploads/2014/01/SquareRect.png)
+    - Checkout the rectangle square problem: a square might seem to be an implementation of a but it isn't! [**More info**](https://code.tutsplus.com/tutorials/solid-part-3-liskov-substitution-interface-segregation-principles--net-36710)
 
 ## Interface segregation principle
 > _small cohesive interfaces are the name of the game_
