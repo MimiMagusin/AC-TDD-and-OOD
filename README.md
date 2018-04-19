@@ -12,10 +12,7 @@ In this README you can find...
 * An explanation of TDD
 * Intro to Kotlin/IJ
 * Interesting sources
-## Recap
-* no circular dependencies
-* BICEP testing
-<hr/>
+
 <hr/>
 
 ## Concepts
@@ -68,7 +65,7 @@ class Child : MyInterface {
 }
 ```
 > In kotlin it is possible to implement bodies of classes.
-<hr/>
+
 <hr/>
 
 ## SOLID
@@ -86,7 +83,7 @@ class Child : MyInterface {
     - _Clients should not be forced to depend upon interfaces that they do not use._
 - **example**
     - If you'd have an interface with multiple methods but not all are used, split your interface in multiple interfaces!
-<hr/>
+
 <hr/>
 
 ## TDD
@@ -341,17 +338,6 @@ class Square(sideLength: Int): Rectangle(width: sideLength, height: sideLength) 
     * Useful short cuts
       * cmd L => Format my code
       * ⇧F6 => Refactor | Rename
-
-<hr />
-<hr />
-
-## Q&A
-* **Legacy Code**
-* **Separate business logic from 'view'-logic**
-* **Naming**
-* **When to TDD**
-
-<hr />
 <hr />
 
 ## Interesting Sources
