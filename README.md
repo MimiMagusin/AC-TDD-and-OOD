@@ -100,7 +100,7 @@ class Child : MyInterface {
 Continuously zooming in and out, writing tests that fails, writing code to make it pass (according to the rules above), refactor your code.
 
 ### Example
-Build a calculator that can implement the functions and multiply
+Build a calculator that can implement the functions sum and multiply
 * First step: 
 ```kotlin
 class MyTests {
